@@ -1,12 +1,13 @@
 var fruits = ["Banana", "Orange","Apple","Mango"];
 
-function loadFruits(){
+function loadFruits()
+{
     document.getElementById("fruits").innerHTML = fruits;
 }
 
-function myFunction() {
-    var fruit = promt("What is your favorite fruit? ");
-    fruits[fruits.lenght] = fruits;
+function myFunction()
+{
+    var fruit = prompt("What is your favorite fruit? ");
+    fruits[fruits.length] = fruit;
     document.getElementById("fruits").innerHTML = fruits;
-    
 }
