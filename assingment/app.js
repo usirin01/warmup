@@ -13,3 +13,4 @@ function billingFunction(){
         billingZipElements.value = "";
     }
 }
+
