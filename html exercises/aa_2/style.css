@@ -1,0 +1,26 @@
+#general{
+    background-color: gray;
+}
+
+#topper{
+    background-color: #333;
+    width: 400px;
+    height:40px;
+    margin:auto;
+}
+
+#leftside{
+    background-color: #333;
+    width: 100px;
+    height:360px;
+    border: 1px solid #999;
+    margin:auto;
+}
+
+#rightside{
+    background-color: #fff;
+    width: 300px;
+    height:360px;
+    border: 1px solid #999;
+    margin:auto;
+}
