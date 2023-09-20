@@ -1,34 +1,45 @@
-#general{
-    background-color: gray;
+* {
+  box-sizing: border-box;
+}
+
+div {
+    margin: 40px 100px 100px 40px;
 }
 
 #topper{
     background-color: #333;
     width: 400px;
     height:40px;
-    margin:auto;
+    margin-top: 40px;
 }
 
 #leftside{
-    background-color: #333;
+    float:left;
+    background-color: #fff;
     width: 100px;
     height:360px;
     border: 1px solid #999;
-    margin:auto;
 }
 
 #rightside{
+    float:left;
     background-color: #fff;
     width: 300px;
     height:360px;
     border: 1px solid #999;
-    margin:auto;
 }
 
-#footer{
-    background-color: (51,89,135,0.5);
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#bottom{
+    background-color: rgba(51,89,135,0.5);
     width: 400px;
     height:20px;
     border: 1px solid #666;
-    margin:auto;
 }
+
