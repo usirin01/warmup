@@ -42,3 +42,11 @@ section::after {
       height:20px;
       border: 1px solid #666;
   }
+
+  .blaubox{
+    margin: 8px;
+  }
+
+  .redbox{
+    margin: 8px;
+  }
