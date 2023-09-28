@@ -9,6 +9,36 @@
 #topper{
     background-color: #333;
     width: 400px;
-    height: 400px;
+    height: 40px;
     margin-top: 40px;
 }
+
+#blauside{
+    float:left;
+    background-color: #fff;
+    width: 200px;
+    height:360px;
+    border: 1px solid #999;
+}
+
+#redside{
+    float:left;
+    background-color: #fff;
+    width: 200px;
+    height:360px;
+    border: 1px solid #999;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  #bottom{
+      background-color: rgba(51,89,135,0.5);
+      width: 400px;
+      height:20px;
+      border: 1px solid #666;
+  }
