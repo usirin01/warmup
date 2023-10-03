@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body{
+    background-image: url(./bkg_motif.gif);
+}
+
 div {
     margin: 40px 100px 40px 100px;
 }

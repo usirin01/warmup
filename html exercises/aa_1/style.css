@@ -2,7 +2,11 @@
     box-sizing: border-box;
   }
 
-  div {
+body{
+    background-image: url(./bkg_motif.gif);
+}
+
+div {
     margin: 40px 100px 40px 100px;
 }
 
@@ -16,9 +20,11 @@
 #blauside{
     float:left;
     background-color: #fff;
-    width: 200px;
-    height:500px;
     border: 1px solid #999;
+    width: 200px;
+    height:360px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 #redside{
@@ -44,9 +50,9 @@ section::after {
   }
 
   .blaubox{
-    margin: 8px;
+    margin: 8px 5px 8px 4px;
   }
 
   .redbox{
-    margin: 8px;
+    margin: 8px 5px 8px 5px;
   }
