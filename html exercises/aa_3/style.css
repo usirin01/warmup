@@ -1,3 +1,24 @@
 * {
     box-sizing: border-box;
   }
+
+  #topper{
+    background-color: #333;
+    width: 400px;
+    height:40px;
+    margin-top: 40px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  #bottom{
+      background-color: rgba(51,89,135,0.5);
+      width: 400px;
+      height:20px;
+      border: 1px solid #666;
+  }
