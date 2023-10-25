@@ -9,7 +9,7 @@
     margin-top: 40px;
 }
 
-ul {
+#topper ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,11 +17,11 @@ ul {
     background-color: black;
   }
   
-  li {
+  #topper li {
     float: left;
   }
 
-  li a {
+  #topper li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -35,12 +35,26 @@ ul {
     display: block;
   }
 
-  #rightside {
-    float:right;
-    height: 500px;
-    width: 200px;
-    background-color: #d38321;
-
+  .nav {
+    float: right;
+    background-color: yellow;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+  }
+  
+  .nav li {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000000;
   }
 
 
