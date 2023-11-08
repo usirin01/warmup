@@ -30,6 +30,11 @@
     text-decoration: none;
   }
 
+  p {
+    color: rgb(181, 155, 53);
+    margin:2px;
+  }
+
   .sky {
     height: 150px;
     width: 100%;
