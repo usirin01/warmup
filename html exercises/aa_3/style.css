@@ -2,14 +2,21 @@
     box-sizing: border-box;
   }
 
+  #topdiv{
+    
+  }
+
   #topper{
+    background-image: url(./unnamed2.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
     background-color: #333;
     width: 100%;
     height:125px;
     margin-top: 40px;
 }
 
-#topper ul {
+  #topper ul {
     float: right;
     list-style-type: none;
     margin: 0;
@@ -32,23 +39,32 @@
 
   p {
     color: rgb(181, 155, 53);
-    margin:2px;
+    padding: 5px;
   }
 
   .sky {
     height: 150px;
     width: 100%;
+    display:flex;
+  }
+
+  #marea {
     display: block;
+  }
+
+  .leftside {
+    float: left;
+    width: 75%;
   }
 
   .rside {
     float: right;
-    background-color: yellow;
+    background-color: rgb(181, 155, 53);
     list-style-type: none;
     text-align: left;
     margin: 0;
     padding: 0;
-    width: 20%;
+    width: 25%;
     height: 100%;
   }
   
@@ -79,5 +95,4 @@ section::after {
 
   .htmllogo {
     display:flex;
-    position: sticky;
   }
