@@ -39,21 +39,26 @@
   }
 
   p {
-    color: #ffffff;
+    color: #000000;
     padding: 5px;
   }
+
+  .desc {
+    color: #ffffff;
+  }
+
 
   .sky {
     height: 150px;
     width: 100%;
-    display:flex;
-  }
+    }
 
   #marea {
     display: block;
   }
 
   .leftside {
+    color:#000000;
     float: left;
     width: 75%;
   }
