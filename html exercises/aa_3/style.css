@@ -101,5 +101,5 @@ section::after {
   }
 
   .htmllogo {
-    display:flex;
+    display:flexbox;
   }
